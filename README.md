@@ -12,21 +12,27 @@ npx install-peerdeps --dev @salzpate/eslint-config-nextjs
 
 ## Usage
 
-Extend the shared eslint config in your `.eslintrc.json` file:
+Extend the shared eslint config in your `.eslintrc.js` file:
 
-```json
+```javascript
 module.exports = {
-  "extends": "@salzpate/eslint-config-nextjs",
+  "extends": "@salzpate",
   "rules": {
     // Your project-specific rules
   }
 };
 ```
 
-Extend the shared eslint config in your `.prettierrc.rc` file:
+Extend the shared prettier config in your `prettier.config.js` file:
 
-```json
-module.exports = require('eslint-config-gusto/.prettierrc');
+```javascript
+module.exports = require('@salzpate/eslint-config/prettier.config');
+```
+
+Extend the shared eslint config in your `stylelint.config.js` file:
+
+```javascript
+module.exports = require('@salzpate/eslint-config/stylelint.config');
 ```
 
 ## Reference
