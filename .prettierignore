@@ -1,0 +1,17 @@
+**/tests/fixtures/**/*
+!packages/scope-manager/tests/fixtures/**/*
+**/tests/fixture-project/**/*
+**/dist
+**/nyc_output
+**/coverage
+**/shared-fixtures
+**/.vscode
+**/.nyc_output
+**/.vs
+packages/eslint-plugin-tslint/tests/test-tslint-rules-directory/alwaysFailRule.js
+.github
+CONTRIBUTORS.md
+
+# Ignore CHANGELOG.md files to avoid issues with automated release job
+CHANGELOG.md
+

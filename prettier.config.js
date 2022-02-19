@@ -1,48 +1,48 @@
 module.exports = {
-  arrowParens: "avoid",
+  arrowParens: 'avoid',
   bracketSpacing: true,
-  endOfLine: "lf",
-  "eslint linebreak-style": ["error", "windows"],
+  endOfLine: 'lf',
+  'eslint linebreak-style': ['error', 'windows'],
   bracketSameLine: false,
   jsxSingleQuote: false,
-  parser: "typescript",
+  parser: 'typescript',
   printWidth: 240,
-  proseWrap: "preserve",
-  quoteProps: "as-needed",
+  proseWrap: 'preserve',
+  quoteProps: 'as-needed',
   semi: true,
-  singleQuote: false,
+  singleQuote: true,
   tabWidth: 2,
-  trailingComma: "all",
+  trailingComma: 'all',
   useTabs: false,
   overrides: [
     {
-      files: "*.html",
+      files: '*.html',
       options: {
-        parser: "html",
+        parser: 'html',
       },
     },
     {
-      files: "*.yaml",
+      files: '*.yaml',
       options: {
-        parser: "yaml",
+        parser: 'yaml',
       },
     },
     {
-      files: "*.yml",
+      files: '*.yml',
       options: {
-        parser: "yaml",
+        parser: 'yaml',
       },
     },
     {
-      files: "*.json",
+      files: '*.json',
       options: {
-        parser: "json",
+        parser: 'json',
       },
     },
     {
-      files: "*.md",
+      files: '*.md',
       options: {
-        parser: "markdown",
+        parser: 'markdown',
       },
     },
   ],
