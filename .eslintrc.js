@@ -1,6 +1,6 @@
 module.exports = {
-  extends: './index',
+  extends: "./index",
   rules: {
-    '@next/next/no-html-link-for-pages': ['off'],
+    "@next/next/no-html-link-for-pages": ["off"],
   },
 };
