@@ -1,7 +1,7 @@
 {
   "name": "@salzpate/eslint-config",
   "description": "ESLint shareable config for next.js projects",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Ronny Krammer",
   "repository": {
     "type": "git",
@@ -33,20 +33,20 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "prettier": "^2.0.0",
-    "stylelint": "^14.0.0",
+    "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.0",
-    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-recommended": "^8.0.0",
     "stylelint-order": "^5.0.0",
     "stylelint-prettier": "^2.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.12.0",
-    "eslint": "^8.9.0",
-    "eslint-config-next": "^12.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jest": "^26.1.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.5.1"
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1"
   }
 }
