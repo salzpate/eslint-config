@@ -8,7 +8,7 @@ ESLint shareable config for next.js projects.
 npx install-peerdeps --dev @salzpate/eslint-config-nextjs
 ```
 
-> eslint, eslint-config-next, eslint-config-prettier, eslint-plugin-jest, eslint-plugin-prettier, eslint-plugin-react-hooks, prettier, stylelint, stylelint-config-prettier, stylelint-config-recommended, stylelint-order and stylelint-prettier are peer dependencies and must be installed.
+> eslint, eslint-config-next, eslint-config-prettier, eslint-plugin-jest, eslint-plugin-prettier, eslint-plugin-react-hooks, prettier, stylelint, stylelint-config-recommended, stylelint-order and stylelint-prettier are peer dependencies and must be installed.
 
 ## Usage
 
