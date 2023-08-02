@@ -16,7 +16,7 @@ module.exports = {
     },
     linkComponents: ['Hyperlink', { name: 'Link', linkAttribute: 'to' }],
   },
-  plugins: ['@typescript-eslint', 'prettier', 'react', 'react-hooks'],
+  plugins: ['@typescript-eslint', 'prettier', 'react'],
   rules: {
     'import/extensions': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
