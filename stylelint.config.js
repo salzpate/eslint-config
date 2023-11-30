@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   extends: ['stylelint-config-recommended', 'stylelint-prettier/recommended'],
   plugins: ['stylelint-order', 'stylelint-prettier'],
   rules: {
@@ -24,3 +24,5 @@ module.exports = {
     'prettier/prettier': true,
   },
 };
+
+export default config;

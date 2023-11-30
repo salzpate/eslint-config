@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import("prettier").Config} */
+const config = {
   arrowParens: 'avoid',
   bracketSpacing: true,
   endOfLine: 'lf',
@@ -47,3 +48,5 @@ module.exports = {
     },
   ],
 };
+
+export default config;
