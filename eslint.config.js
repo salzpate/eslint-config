@@ -1,5 +1,4 @@
 import customTestConfig from "./index.js";
-
 export default [
   {
     ...customTestConfig,
