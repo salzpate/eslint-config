@@ -23,7 +23,7 @@
   ],
   "scripts": {
     "test": "npm run lint",
-    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint ."
+    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint -c ./eslint.config.cjs ."
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.1.0",
