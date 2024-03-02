@@ -1,7 +1,7 @@
 {
   "name": "@salzpate/eslint-config",
   "description": "ESLint shareable config for next.js projects",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "author": "Ronny Krammer",
   "repository": {
     "type": "git",
