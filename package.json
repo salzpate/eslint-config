@@ -26,17 +26,17 @@
     "lint": "ESLINT_USE_FLAT_CONFIG=false eslint -c ./eslint.config.cjs ."
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
     "eslint": "^8.54.0",
-    "eslint-config-next": "^14.0.3",
+    "eslint-config-next": "^14.2.5",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "prettier": "^3.1.0",
-    "stylelint": "^16.2.1",
-    "stylelint-config-recommended": "^14.0.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "stylelint": "^16.7.0",
+    "stylelint-config-recommended": "^14.0.1",
     "stylelint-order": "^6.0.4",
-    "stylelint-prettier": "^5.0.0"
+    "stylelint-prettier": "^5.0.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.0.0",

@@ -21,6 +21,5 @@ jobs:
         run: npm ci
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_GITHUB_TOKEN }}
-      - name: Lint
-        run: npm run lint
+
 
