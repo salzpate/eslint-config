@@ -1,7 +1,7 @@
 {
   "name": "@salzpate/eslint-config",
   "description": "ESLint shareable config for next.js projects",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "author": "Ronny Krammer",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   "type": "module",
   "main": "index.js",
   "files": [
-    "index.js",
-    "prettier.config.js",
-    "stylelint.config.js"
+    "index.cjs",
+    "prettier.config.cjs",
+    "stylelint.config.cjs"
   ],
   "scripts": {
     "test": "npm run lint",
